@@ -1,0 +1,27 @@
+# Root gitignore for resume-builder project
+
+# IDE / editor
+.vscode/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Node / React app inside resume-builder
+resume-builder/node_modules/
+resume-builder/build/
+resume-builder/.pnp
+resume-builder/.pnp.js
+resume-builder/coverage/
+
+# Env files
+resume-builder/.env.local
+resume-builder/.env.development.local
+resume-builder/.env.test.local
+resume-builder/.env.production.local
+
+# Debug logs inside project
+resume-builder/npm-debug.log*
+resume-builder/yarn-debug.log*
+resume-builder/yarn-error.log*
